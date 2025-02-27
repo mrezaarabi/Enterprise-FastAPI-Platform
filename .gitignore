@@ -1,0 +1,21 @@
+# Coverage files
+.coverage
+htmlcov/
+
+# Environment files (avoid committing secrets)
+.env
+
+# SQLite database
+*.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore everything in the logs directory
+logs/*
+# Keep logs folder
+!logs/.gitkeep
+
+# Pytest cache
+.pytest_cache/
